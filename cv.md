@@ -1,8 +1,8 @@
 # **Novikau Ihar**
-***Contacts for communication:***
-phone number: **+375295316862**
-email: **gosha.noviko2012@gmail.com**
-by the end of this year I will be working as a front-end developer
+***Contacts for communication:***\
+*phone number*: **+375295316862**\
+*email*: **gosha.noviko2012@gmail.com**\
+by the end of this year I will be working as a front-end developer\
 no development skills. tried to study on my own. studied js
 ```
 <DocumentType html>
@@ -32,8 +32,8 @@ no development skills. tried to study on my own. studied js
         </script>
         </body>
      </html>
-     ```
-*no work experience.*
-*Civil engineer.*
-*Belarusian-Russian University* 
+```
+*no work experience.*\
+*Civil engineer.*\
+*Belarusian-Russian University* \
 *english level: A2(Pre-Intermediate)*
