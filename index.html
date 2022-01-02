@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body class="body">
+    <nav class="nav"><a href="1.html">1</a> | <a href="2.html">2</a> |
+        <a href="3.html">3</a> | <a href="4.html">4</a> | <a href="5.html">5</a> | <a href="6.html">6</a></nav>
+    <header class="header">
+    <div class="fotoname">
+        <div class="foto">
+            <img src="cv3avatar.jpg" alt="avatar" class="avatar">
+            <ul class="kontakt"><h5>kontakt</h5>
+                <li>kontakt1</li>
+                <li>kontakt2</li>
+                <li>kontakt3</li>
+        </div>
+       <div class="name"><h1>Novikau Ihar</h1>
+       </div>
+    </div>
+
+    </header>
+   
+        <main class="main">
+            <table class="table">
+                <tr>
+                    <th class="line">information about me:</th>
+                    <th class="line">Novice developer. I am 24 years old.</th>
+                </tr>
+                <tr>
+                    <th class="line">skills:</th>
+                    <th class="line">No development skills yet. I'm taking courses.</th>
+                </tr>
+                <tr>
+                    <th class="line">sample code:</th>
+                    <th class="line" > 
+                        <pre>
+                        <code>    
+                                'use strict'         
+                                 let login=prompt('введите ваш логин','')
+                                 if (login=='a')
+                                    {let pass=prompt('введите пароль','*****')//запрос пароля  
+                                     if (pass=='a')                           //проверка пароля
+                                    {alert('здравствуйте')}                    //вывод, если пароль верный
+                                     else              
+                                       if (pass==null||pass=='')                //проверяем пароль на ввод и отмену
+                                       {alert('отменено')}                    //выводим при отмене
+                                       else
+                                       {alert('не верный пароль')}   }            //вывод в случае с не верным паролемм
+                                 else
+                                 if (login==null||login=='')               //проверяем пароль на ввод и отмену
+                                 {alert ('отменено')}                        //вывод при отмене
+                                 else 
+                                 {alert('я вас не знаю')};                      //вывод при неверном логине        
+                        </code>
+                        </pre>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="line">experience:</th>
+                    <th class="line">I have no experience in this area.</th>
+                </tr>
+                <tr>
+                    <th class="line">education:</th>
+                    <th class="line">Belarusian-Russian University.Civil engineer.</th>
+                </tr>
+                <tr>
+                    <th class="line">english level:</th>
+                    <th class="line"> A2(Pre-Intermediate).</th>
+                </tr>
+            </table>
+            </main>
+     <footer class="footer">
+        <div class="a">ссылка гит</div>
+        <div class="b">2022</div>
+        <div class="c">сылка rs</div>
+    </footer> 
+</body>
+</html>
