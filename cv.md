@@ -9,16 +9,13 @@ no development skills. tried to study on my own. studied js
     <html> 
       <body>          
         <script> 
-         'use strict'
-         
+         'use strict'         
           let login=prompt('введите ваш логин','')
           if (login=='a')
-             {let pass=prompt('введите пароль','*****')//запрос пароля
-  
+             {let pass=prompt('введите пароль','*****')//запрос пароля  
               if (pass=='a')                           //проверка пароля
              {alert('здравствуйте')}                    //вывод, если пароль верный
-              else
-              
+              else              
                 if (pass==null||pass=='')                //проверяем пароль на ввод и отмену
                 {alert('отменено')}                    //выводим при отмене
                 else
@@ -27,8 +24,7 @@ no development skills. tried to study on my own. studied js
           if (login==null||login=='')               //проверяем пароль на ввод и отмену
           {alert ('отменено')}                        //вывод при отмене
           else 
-          {alert('я вас не знаю')};                      //вывод при неверном логине
-        
+          {alert('я вас не знаю')};                      //вывод при неверном логине        
         </script>
         </body>
      </html>
